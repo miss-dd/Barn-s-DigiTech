@@ -1,0 +1,7 @@
+{
+  "name": "Barn's DigiTech - Retail Electronics Ghana",
+  "description": "Ghana's premier destination for genuine consumer electronics, premium computing hardware, flagship smartphones, and authentic accessories with verified localized warranties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
