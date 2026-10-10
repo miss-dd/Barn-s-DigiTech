@@ -19,6 +19,9 @@ import { OrderSuccessView } from './views/OrderSuccessView';
 import { ShowroomsView } from './views/ShowroomsView';
 import { WarrantyView } from './views/WarrantyView';
 import { FaqView } from './views/FaqView';
+import { AboutView } from './views/AboutView';
+import { ContactView } from './views/ContactView';
+import { TrackOrderView } from './views/TrackOrderView';
 
 const MainContent: React.FC = () => {
   const { currentView } = useApp();
@@ -49,6 +52,12 @@ const MainContent: React.FC = () => {
         return <WarrantyView />;
       case 'faq':
         return <FaqView />;
+      case 'about':
+        return <AboutView />;
+      case 'contact':
+        return <ContactView />;
+      case 'track':
+        return <TrackOrderView />;
       default:
         return <HomeView />;
     }

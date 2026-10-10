@@ -32,7 +32,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     const message = encodeURIComponent(
       `Hello Barn's DigiTech! I want to order: ${product.name} (GH₵ ${product.price.toLocaleString()}). Is this item available for delivery or pickup at Accra Central today?`
     );
-    window.open(`https://wa.me/233558329911?text=${message}`, '_blank');
+    window.open(`https://wa.me/233502423799?text=${message}`, '_blank');
   };
 
   return (

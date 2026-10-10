@@ -4,7 +4,7 @@ import { MessageCircle, X, ExternalLink, ShieldCheck } from 'lucide-react';
 export const WhatsAppFloatingButton: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const directPhone = '233558329911';
+  const directPhone = '233502423799';
   const defaultText = encodeURIComponent(
     "Hello Barn's DigiTech! I'm browsing your online store and have questions about phone availability and delivery in Accra."
   );
@@ -41,7 +41,7 @@ export const WhatsAppFloatingButton: React.FC = () => {
 
           <div className="mt-3 bg-gray-50 p-2.5 rounded-xl text-[11px] text-gray-600 flex items-center gap-2">
             <ShieldCheck className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>Official Barn's DigiTech WhatsApp Business (+233 55 832 9911)</span>
+            <span>Official Barn's DigiTech WhatsApp Business (+233 50 242 3799)</span>
           </div>
 
           <a

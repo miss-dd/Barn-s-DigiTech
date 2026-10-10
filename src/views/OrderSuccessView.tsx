@@ -19,7 +19,7 @@ export const OrderSuccessView: React.FC = () => {
   const order = completedOrder || {
     orderId: 'BD-724910',
     customerName: 'Doreen Appiah',
-    phoneNumber: '055 832 9911',
+    phoneNumber: '050 242 3799',
     email: 'domprehdoreenappiah@gmail.com',
     deliveryMethod: 'delivery' as const,
     digitalAddress: 'GA-182-4521',
@@ -51,7 +51,7 @@ export const OrderSuccessView: React.FC = () => {
       `*Fulfillment:* ${order.deliveryMethod === 'pickup' ? `Pickup (${order.pickupHub})` : `Door Delivery (${order.address})`}\n\n` +
       `Kindly confirm dispatch status. Thank you!`
     );
-    window.open(`https://wa.me/233558329911?text=${text}`, '_blank');
+    window.open(`https://wa.me/233502423799?text=${text}`, '_blank');
   };
 
   const handlePrint = () => {

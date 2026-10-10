@@ -27,7 +27,7 @@ export const CheckoutView: React.FC = () => {
   } = useApp();
 
   const [customerName, setCustomerName] = useState('Doreen Appiah');
-  const [phoneNumber, setPhoneNumber] = useState('055 832 9911');
+  const [phoneNumber, setPhoneNumber] = useState('050 242 3799');
   const [email, setEmail] = useState('domprehdoreenappiah@gmail.com');
   const [deliveryMethod, setDeliveryMethod] = useState<'delivery' | 'pickup'>('delivery');
   const [digitalAddress, setDigitalAddress] = useState('GA-182-4521');
@@ -36,7 +36,7 @@ export const CheckoutView: React.FC = () => {
   const [city, setCity] = useState('Accra');
   const [pickupHub, setPickupHub] = useState('Accra Central Flagship (Rawlings Park)');
   const [paymentMethod, setPaymentMethod] = useState<'momo_mtn' | 'momo_telecel' | 'card' | 'cod'>('momo_mtn');
-  const [momoNumber, setMomoNumber] = useState('055 832 9911');
+  const [momoNumber, setMomoNumber] = useState('050 242 3799');
   const [orderNotes, setOrderNotes] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 

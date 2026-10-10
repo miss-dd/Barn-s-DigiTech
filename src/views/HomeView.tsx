@@ -84,13 +84,13 @@ export const HomeView: React.FC = () => {
                   <ArrowRight className="w-4 h-4" />
                 </button>
                 <a
-                  href="https://wa.me/233558329911"
+                  href="https://wa.me/233502423799"
                   target="_blank"
                   rel="noreferrer"
                   className="px-6 py-3.5 bg-[#25D366] hover:bg-[#1EBE5D] text-white font-bold text-sm rounded-xl shadow-lg shadow-emerald-500/25 flex items-center gap-2 transition-all hover:scale-102"
                 >
                   <span className="material-symbols-outlined text-[18px]">chat</span>
-                  <span>WhatsApp Instant Order</span>
+                  <span>WhatsApp (+233 50 242 3799)</span>
                 </a>
               </div>
 

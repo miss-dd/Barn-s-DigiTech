@@ -78,7 +78,7 @@ export const ShowroomsView: React.FC = () => {
                 <div>
                   <div className="font-bold text-gray-900">Direct Telephone & WhatsApp:</div>
                   <p className="text-gray-600 font-medium">
-                    +233 (0) 55 832 9911 / +233 (0) 24 990 1234
+                    +233 (0) 50 242 3799 / +233 (0) 24 990 1234
                   </p>
                 </div>
               </div>
@@ -122,13 +122,13 @@ export const ShowroomsView: React.FC = () => {
               </a>
 
               <a
-                href="https://wa.me/233558329911"
+                href="https://wa.me/233502423799"
                 target="_blank"
                 rel="noreferrer"
                 className="px-5 py-3 bg-[#25D366] hover:bg-[#1EBE5D] text-white text-xs font-bold rounded-xl transition-all flex items-center gap-2"
               >
                 <span className="material-symbols-outlined text-[18px]">chat</span>
-                <span>Chat with Showroom Rep</span>
+                <span>Chat with Showroom Rep (+233 50 242 3799)</span>
               </a>
             </div>
           </div>

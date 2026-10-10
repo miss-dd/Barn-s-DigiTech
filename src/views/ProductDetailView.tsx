@@ -78,7 +78,7 @@ export const ProductDetailView: React.FC = () => {
       `Price: GH₵ ${(currentPrice * quantity).toLocaleString()}\n\n` +
       `Can I pick this up today at Accra Central or arrange express delivery?`
     );
-    window.open(`https://wa.me/233558329911?text=${text}`, '_blank');
+    window.open(`https://wa.me/233502423799?text=${text}`, '_blank');
   };
 
   const handleShare = () => {

@@ -1,0 +1,48 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="#FFFFFF"/>
+  <g transform="translate(16, 20) scale(3.0)">
+    <!-- Background Bold Navy Letter 'B' -->
+    <path
+      d="M38 18 H92 C115 18 132 28 132 50 C132 63 124 73 111 78 C128 83 138 96 138 114 C138 138 118 148 92 148 H38 V18 Z 
+         M64 42 V68 H88 C98 68 106 63 106 55 C106 47 98 42 88 42 H64 Z 
+         M64 92 V124 H92 C103 124 112 118 112 108 C112 98 103 92 92 92 H64 Z"
+      fill="#0B192C"
+    />
+
+    <!-- Tech Digital Pixels -->
+    <rect x="22" y="58" width="12" height="12" rx="1.5" fill="#0066FF" />
+    <rect x="36" y="58" width="12" height="12" rx="1.5" fill="#0066FF" />
+    <rect x="29" y="72" width="12" height="12" rx="1.5" fill="#0066FF" />
+    <rect x="43" y="72" width="12" height="12" rx="1.5" fill="#0066FF" />
+
+    <!-- Shopping Cart Handle connecting to pixels -->
+    <path
+      d="M48 78 L60 78 L74 116 H114"
+      stroke="#0066FF"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Shopping Cart Basket Body -->
+    <polygon
+      points="65,82 118,82 108,112 76,112"
+      fill="#FFFFFF"
+      stroke="#0066FF"
+      stroke-width="6"
+      stroke-linejoin="round"
+    />
+
+    <!-- Front Dynamic Swoosh extending around the 'B' -->
+    <path
+      d="M106 112 C122 106 136 94 144 76 C147 68 148 60 144 54 C141 50 134 52 136 60 C138 69 130 84 114 96"
+      fill="#0066FF"
+    />
+
+    <!-- Shopping Cart Wheels -->
+    <circle cx="82" cy="122" r="7" fill="#FFFFFF" stroke="#0066FF" stroke-width="4" />
+    <circle cx="106" cy="122" r="7" fill="#FFFFFF" stroke="#0066FF" stroke-width="4" />
+    <circle cx="82" cy="122" r="2.5" fill="#0066FF" />
+    <circle cx="106" cy="122" r="2.5" fill="#0066FF" />
+  </g>
+</svg>

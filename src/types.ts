@@ -21,7 +21,10 @@ export type ViewType =
   | 'order-success'
   | 'showrooms'
   | 'warranty'
-  | 'faq';
+  | 'faq'
+  | 'about'
+  | 'contact'
+  | 'track';
 
 export interface OrderDetails {
   orderId: string;

@@ -232,13 +232,13 @@ export const SmartphonesView: React.FC = () => {
               Not sure whether to choose the iPhone 15 Pro Max or Galaxy S24 Ultra? Chat with our Accra showroom technician on WhatsApp.
             </p>
             <a
-              href="https://wa.me/233558329911"
+              href="https://wa.me/233502423799"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 hover:text-emerald-800 pt-1"
             >
               <span className="material-symbols-outlined text-[16px]">chat</span>
-              <span>Ask a Specialist &rarr;</span>
+              <span>Ask a Specialist (+233 50 242 3799) &rarr;</span>
             </a>
           </div>
         </aside>

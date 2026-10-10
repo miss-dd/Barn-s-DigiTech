@@ -252,13 +252,13 @@ export const FaqView: React.FC = () => {
           </p>
         </div>
         <a
-          href="https://wa.me/233558329911"
+          href="https://wa.me/233502423799"
           target="_blank"
           rel="noreferrer"
           className="px-6 py-3 bg-[#25D366] hover:bg-[#1EBE5D] text-white text-xs font-bold rounded-xl shadow-md transition-all flex items-center gap-2 whitespace-nowrap"
         >
           <span className="material-symbols-outlined text-[18px]">chat</span>
-          <span>Chat on WhatsApp</span>
+          <span>Chat on WhatsApp (+233 50 242 3799)</span>
         </a>
       </div>
     </div>

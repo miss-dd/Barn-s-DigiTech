@@ -1,5 +1,6 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
+import { Logo } from './Logo';
 import {
   ShieldCheck,
   Truck,
@@ -75,13 +76,8 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand Bio */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-[#1677FF] to-blue-400 flex items-center justify-center text-white font-black text-lg">
-                B
-              </div>
-              <span className="font-extrabold text-xl text-white tracking-tight">
-                Barn's <span className="text-[#1677FF]">DigiTech</span>
-              </span>
+            <div className="cursor-pointer" onClick={() => navigateTo('home')}>
+              <Logo theme="dark" size="md" />
             </div>
             <p className="text-xs text-gray-400 leading-relaxed max-w-sm">
               Barn's DigiTech is Ghana's verified electronics retail provider. We distribute genuine Apple, Samsung, Google, Dell, and Anker devices with real localized warranties and zero counterfeit tolerance.
@@ -94,8 +90,19 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="tel:+233558329911" className="hover:text-white font-medium">
-                  +233 (0) 55 832 9911 / +233 (0) 24 990 1234
+                <a href="tel:+233502423799" className="hover:text-white font-medium">
+                  +233 (0) 50 242 3799 / +233 (0) 24 990 1234
+                </a>
+              </div>
+              <div className="flex items-center gap-2.5">
+                <span className="material-symbols-outlined text-emerald-400 text-[18px]">chat</span>
+                <a
+                  href="https://wa.me/233502423799"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-white font-semibold text-emerald-400"
+                >
+                  WhatsApp: +233 50 242 3799
                 </a>
               </div>
               <div className="flex items-center gap-2.5">
@@ -170,6 +177,14 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2.5 text-xs text-gray-400">
               <li>
                 <button
+                  onClick={() => navigateTo('track')}
+                  className="hover:text-white text-blue-300 font-semibold transition-colors flex items-center gap-1"
+                >
+                  <span>Track Your Order</span>
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => navigateTo('warranty')}
                   className="hover:text-white transition-colors"
                 >
@@ -186,10 +201,18 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => navigateTo('faq')}
+                  onClick={() => navigateTo('about')}
                   className="hover:text-white transition-colors"
                 >
-                  Returns & Replacements
+                  About Barn's DigiTech
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => navigateTo('contact')}
+                  className="hover:text-white transition-colors"
+                >
+                  Contact & Inquiries
                 </button>
               </li>
               <li>
@@ -202,12 +225,13 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://wa.me/233558329911"
+                  href="https://wa.me/233502423799"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1"
+                  className="text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1 font-semibold"
                 >
-                  WhatsApp Concierge
+                  <span className="material-symbols-outlined text-[16px]">chat</span>
+                  WhatsApp Concierge (+233 50 242 3799)
                 </a>
               </li>
             </ul>

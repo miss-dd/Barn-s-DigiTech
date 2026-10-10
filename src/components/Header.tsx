@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { PRODUCTS } from '../data/products';
+import { Logo } from './Logo';
 import {
   Search,
   ShoppingCart,
@@ -65,7 +66,9 @@ export const Header: React.FC = () => {
     { label: 'Flash Deals 🔥', view: 'deals' },
     { label: 'Warranty & NCA Check', view: 'warranty' },
     { label: 'Showroom & Hubs', view: 'showrooms' },
-    { label: 'FAQ & Delivery', view: 'faq' }
+    { label: 'Track Order', view: 'track' },
+    { label: 'Contact & Support', view: 'contact' },
+    { label: 'FAQ', view: 'faq' }
   ];
 
   return (
@@ -86,11 +89,21 @@ export const Header: React.FC = () => {
 
           <div className="flex items-center space-x-4 text-xs font-medium text-gray-300">
             <a
-              href="tel:+233558329911"
+              href="tel:+233502423799"
               className="flex items-center gap-1.5 hover:text-white transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-emerald-400" />
-              <span>+233 (0) 55 832 9911</span>
+              <span>+233 (0) 50 242 3799</span>
+            </a>
+            <span className="text-gray-600">|</span>
+            <a
+              href="https://wa.me/233502423799"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-1 hover:text-emerald-400 text-emerald-300 transition-colors"
+            >
+              <span className="material-symbols-outlined text-[15px]">chat</span>
+              <span>WhatsApp Us</span>
             </a>
             <span className="text-gray-600">|</span>
             <button
@@ -115,7 +128,7 @@ export const Header: React.FC = () => {
       {/* Main Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3.5">
         <div className="flex items-center justify-between gap-4">
-          {/* Logo & Mobile Menu Toggle */}
+          {/* Exact Brand Logo & Mobile Menu Toggle */}
           <div className="flex items-center gap-3">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -127,24 +140,10 @@ export const Header: React.FC = () => {
 
             <button
               onClick={() => navigateTo('home')}
-              className="text-left group flex items-center gap-2.5 focus:outline-none"
+              className="text-left group flex items-center focus:outline-none transition-transform hover:scale-101"
+              aria-label="Barn's DigiTech Home"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#14213D] to-[#1677FF] flex items-center justify-center text-white font-black text-xl shadow-md group-hover:scale-105 transition-transform">
-                B
-              </div>
-              <div>
-                <div className="flex items-center gap-1.5">
-                  <span className="font-extrabold text-xl tracking-tight text-[#14213D]">
-                    Barn's <span className="text-[#1677FF]">DigiTech</span>
-                  </span>
-                  <span className="hidden sm:inline-block bg-blue-50 text-[#1677FF] text-[10px] font-bold px-1.5 py-0.5 rounded border border-blue-200">
-                    GH
-                  </span>
-                </div>
-                <p className="text-[10px] tracking-wider uppercase font-semibold text-gray-500">
-                  Retail Electronics • Accra
-                </p>
-              </div>
+              <Logo size="md" />
             </button>
           </div>
 
@@ -404,13 +403,13 @@ export const Header: React.FC = () => {
 
             <div className="flex gap-2">
               <a
-                href="https://wa.me/233558329911"
+                href="https://wa.me/233502423799"
                 target="_blank"
                 rel="noreferrer"
                 className="flex-1 py-2.5 bg-[#25D366] hover:bg-[#1EBE5D] text-white text-xs font-bold rounded-xl text-center flex items-center justify-center gap-1.5"
               >
                 <span className="material-symbols-outlined text-[18px]">chat</span>
-                WhatsApp Sales
+                WhatsApp (+233 50 242 3799)
               </a>
               <button
                 onClick={() => {

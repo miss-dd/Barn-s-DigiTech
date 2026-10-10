@@ -65,7 +65,7 @@ export const CartView: React.FC = () => {
       `Please confirm stock availability and send payment / dispatch instructions for Accra.`
     );
 
-    window.open(`https://wa.me/233558329911?text=${message}`, '_blank');
+    window.open(`https://wa.me/233502423799?text=${message}`, '_blank');
   };
 
   if (cart.length === 0) {

@@ -215,12 +215,12 @@ export const WarrantyView: React.FC = () => {
                   Service center location: <strong className="text-gray-800">Accra Central Flagship Showroom</strong>
                 </span>
                 <a
-                  href="https://wa.me/233558329911"
+                  href="https://wa.me/233502423799"
                   target="_blank"
                   rel="noreferrer"
                   className="font-bold text-emerald-700 hover:text-emerald-800 flex items-center gap-1"
                 >
-                  Book Warranty Repair &rarr;
+                  Book Warranty Repair (+233 50 242 3799) &rarr;
                 </a>
               </div>
             </div>
